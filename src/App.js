@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+ //import Login from './components/login';
+import 'bootstrap/dist/css/bootstrap.css';
+//import ComponentMasterSystemMessage from './components/ComponentMasterSystemMessage';
+//import ContentFileMissing from './components/contentFileMissing';
+//import SelectPdf from './components/selectPdf';
+//import ComponentMasterTable from './components/ComponentMasterTable';
+import RSCWorkflowInbox from './components/RSCWorkflowInbox';
+ //import ComponentMaster from './components/ComponentMaster';
+//import Launchpad from './components/Launchpad';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <RSCWorkflowInbox/>
     </div>
   );
 }

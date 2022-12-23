@@ -1,0 +1,10 @@
+thead>tr>th{
+    width: fit-content;
+    font-size: 12px;
+    text-align: left;
+    padding: 5px;
+    column-gap: -20px;
+}
+tbody>tr>td>input{
+    width:160px
+}

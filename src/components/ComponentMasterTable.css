@@ -1,0 +1,16 @@
+
+.cmtContainer {
+    padding: 5px;
+    width: 100%;
+}
+thead{
+    background-color: rgba(66, 68, 70, 0.144);
+}
+thead>tr>th {
+    border: 1px ridge rgba(97, 93, 93, 0.418);
+    font-weight: 600;
+}
+tbody>tr>td {
+    border: 1px ridge rgba(97, 93, 93, 0.418);
+    font-weight: 300;
+}
