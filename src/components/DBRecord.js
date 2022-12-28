@@ -1,6 +1,6 @@
 import React from 'react';
 import './UserReporting.css';
-import {GrNotes} from 'react-icons/gr';
+import {MdOutlineNoteAlt} from 'react-icons/md';
 import {GiNotebook} from 'react-icons/gi';
 import {SlNotebook} from 'react-icons/sl';
 import { useState } from 'react';
@@ -21,17 +21,17 @@ const DBRecord = () => {
         <div className="reports" >
 
           <div className='report1'> <a style={{textDecoration:"none",color:"white"}} href="/UserReporting">
-                 <div className="toReports"  style={{height:"60px",width:"60px",border:"2px solid rgba(247, 63, 8, 0.712)",borderRadius:"30px",marginLeft:"80px"}}><GrNotes style={{height:"50px"}}/></div> <br />
-                 <p style={{paddingLeft:"40px"}} >Transform Order Reports</p></a>
+                 <div className="toReports"  style={{height:"60px",width:"60px",border:"2px solid rgba(247, 63, 8, 0.712)",borderRadius:"30px",marginLeft:"80px"}}><MdOutlineNoteAlt style={{height:"50px"}}/></div> <br />
+                 <p style={{paddingLeft:"50px"}} >Transform Order Reports</p></a>
           </div>
 
           <div className="report2"> <a style={{textDecoration:"none",color:"white"}} href="/WorkOrderReports">
-                  <div className="woReports" style={{height:"60px",width:"60px",border:"2px solid rgba(247, 63, 8, 0.712)",borderRadius:"30px",marginLeft:"80px"}}><GiNotebook style={{height:"55px"}}/></div> <br /> <p style={{paddingLeft:"40px"}} >Work Order Reports</p></a>
+                  <div className="woReports" style={{height:"60px",width:"60px",border:"2px solid rgba(247, 63, 8, 0.712)",borderRadius:"30px",marginLeft:"80px"}}><GiNotebook style={{height:"55px"}}/></div> <br /> <p style={{paddingLeft:"50px"}} >Work Order Reports</p></a>
             </div>  
           
           <div className="report3">  <a style={{textDecoration:"none",color:"white"}} href="/DBRecord">
                   <div className="dbRecord" style={{height:"60px",width:"60px",border:"2px solid rgba(247, 63, 8, 0.712)",borderRadius:"30px",marginLeft:"80px"}}><SlNotebook style={{height:"50px"}}/></div> <br /> 
-                  <p style={{textDecoration:"underline",paddingLeft:"40px",fontWeight:"600"}}>Digital Batch Record</p></a>
+                  <p style={{textDecoration:"underline",paddingLeft:"50px",fontWeight:"600"}}>Digital Batch Record</p></a>
           </div>
             
         </div>

@@ -54,10 +54,26 @@ td>input{
     border-radius: 8px;
     margin-left: 4px;
 }
+td>input:hover{
+    width: 160px;
+    border-radius: 8px;
+    margin-left: 4px;
+    color: white;
+    background-color: rgba(57, 107, 172, 0.712) ;
+    cursor: pointer;
+}
 td>select{
     width: 160px;
     border-radius: 8px;
     margin-left: 4px;
+}
+td>select:hover{
+    width: 160px;
+    border-radius: 8px;
+    margin-left: 4px;
+    color: white;
+    background-color: rgba(16, 89, 184, 0.712) ;
+    cursor: pointer;
 }
 
 .searchbtn{
