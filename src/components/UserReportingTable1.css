@@ -1,30 +1,39 @@
-.TObody{
+.TOBody{
     display: block;
     justify-content: center;
     justify-items: center;
 }
-.rTable{
-    margin-left: 18%;
-}
+
 .userReports{
     width: 100%;
-    height: 100vh;
 }
 thead{
     border: 1px ridge rgb(127, 79, 238);
     border-radius: 20px;
 }
 thead>tr>th {
-    background-color: rgba(62, 231, 178, 0.959);
-    border: 2.5px solid  rgb(60, 49, 87);
-    color: rgb(30, 99, 177);
+    background-color: rgba(247, 63, 8, 0.712);
+    border: 2px ridge  rgb(60, 49, 87);
+    color: rgb(241, 243, 245);
+    width: 100px;
 }
-
+/* thead>tr>th:hover {
+    border: 2px solid  rgb(60, 49, 87);
+    color: rgb(10, 90, 182);
+} */
 tbody>tr>td {
     background-color: rgba(188, 250, 230, 0.959);
     border: 2px solid  rgb(60, 49, 87);
     color: rgb(30, 99, 177);
 }
+tbody>tr>td:hover {
+    background-color: rgb(10, 90, 182);
+    border: 2px solid  rgb(60, 49, 87);
+    color: rgb(210, 226, 245);
+    cursor: pointer;
+    
+}
+
 .btn{
     border-radius: 3px;
     border: 1px solid #2da4f3;
@@ -42,5 +51,5 @@ tbody>tr>td {
     text-align:center;
 }
 .btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover{
-   background-color: rgba(62, 231, 178, 0.959);
+   background-color: rgba(247, 63, 8, 0.712);
 }

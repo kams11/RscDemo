@@ -4,19 +4,21 @@ import "./DBRecordTable.css";
 
 export const DBRecordTable = () =>{
   return(
-    <section className='userReports'>
+    < >
+    <div className='tab2Body'>
         <div className="URtitile">
-            <h2>DIGITAL BATCH RECORD</h2>
+            <h2 style={{color:"white",fontFamily:"serif"}}>DIGITAL BATCH RECORD</h2>
             <br />
              <h6 style={{textAlign:"left",color:"white"}}>PART 1 : PRODUCT TRANSFORMATION - TRANSFORMATION OPERATOR</h6>
         </div>
-        <br />
-        <div className="TObody">
+        
+        <div className='tableDataContainer'>
         <form method="POST" >
-            <table>
+            <table className="tableData">
                 <thead>
                     <tr>
-                        <th scope="col">Work Order Number</th>
+                        <th scope="col">Work Order Number
+                        </th>
                         <th scope="col">Work Order Status</th>
                         <th scope="col">Transform Order Number</th>
                         <th scope="col">Ship to Country</th>
@@ -61,7 +63,7 @@ export const DBRecordTable = () =>{
                  </tbody>
             </table>
             <br />
-            <table>
+            <table >
                 <thead>
                     <tr>
                         <th scope="col">Component Type</th>
@@ -108,7 +110,7 @@ export const DBRecordTable = () =>{
                 </tbody>
             </table>
 
-            <div className="URtitile">
+            <div className="URtitile" >
                 <br />
              <h6 style={{textAlign:"left",color:"white"}}>PART 2  VERIFICATION : INSPECTION OPERATOR</h6>
         </div>
@@ -143,8 +145,9 @@ export const DBRecordTable = () =>{
   </form>
 
         </div>
+        </div>
 
-    </section>
+    </>
     
     
 

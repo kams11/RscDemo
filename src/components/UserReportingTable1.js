@@ -4,10 +4,10 @@ import './UserReportingTable1.css';
 export const UserReportingTable1 = () =>{
   return(
     
-        
-        <div className="TObody">
+        <>
+        <div className="TOBody" style={{width:"100px",backgroundColor:"rgb(14, 12, 12)"}}>
         <form method="POST" >
-            <table className='rTable'>
+            <table >
                 <thead>
                     <tr>
                         <th>Sales Order Number</th>
@@ -58,20 +58,21 @@ export const UserReportingTable1 = () =>{
                   </tr>
                 </tbody>
             </table>
-            <div className='container'>
+            
+    
+  </form>
+  <div className='container'>
                 <button className=' btn btn1'>Prev</button>
                 <button className='btn btn2'>1</button>
                 <button className='btn btn3'>2</button>
                 <button className='btn btn4'>Next</button>
             </div>
-    
-  </form>
 
         </div>
 
     
     
-
+        </>
   );
     
     }

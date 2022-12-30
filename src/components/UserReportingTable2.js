@@ -1,16 +1,17 @@
 import React from 'react';
-import "./UserReportingTable2.css";
+import "./UserReportingTable1.css";
 
 export const UserReportingTable2 = () =>{
   return(
-    <section className='userReports'>
+    <>
+    
+    <div className='tab2Body2'>
         <div className="URtitile">
-             <h5>Total Records : 202</h5>
-        </div>
-        <br />
+             <h5 style={{color:"white"}}>Total Records : 02</h5>
+          </div>
         <div className="TObody">
-        <form method="POST" >
-            <table style={{marginLeft:"12%"}}>
+            <form >
+                <table >
                 <thead>
                     <tr>
                         <th>Product Number</th>
@@ -76,9 +77,8 @@ export const UserReportingTable2 = () =>{
 
         </div>
 
-    </section>
-    
-    
+        </div>
+    </>
 
   );
     

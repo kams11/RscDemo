@@ -3,7 +3,8 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 //import UserReporting from './components/UserReporting';
 //import DBRecord from './components/DBRecord';
-import WorkOrderReports from './components/WorkOrderReports';
+//import WorkOrderReports from './components/WorkOrderReports';
+import UserReporting from './components/UserReporting';
 //import UserReporting from './components/UserReporting';
 //import ComponentMasterSystemMessage from './components/ComponentMasterSystemMessage';
 //import ContentFileMissing from './components/contentFileMissing';
@@ -16,7 +17,7 @@ import WorkOrderReports from './components/WorkOrderReports';
 function App() {
   return (
     <div className="App">
-      <WorkOrderReports/>
+      <UserReporting/>
     </div>
   );
 }

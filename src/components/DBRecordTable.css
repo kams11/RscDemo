@@ -1,16 +1,57 @@
+.URtitile{
+    width: 100%;
+    padding-top: 10px;
+}
+.tableData{
+    border-collapse: collapse;
+    /* min-width: 600px; */
+    /* overflow: hidden; */
+    
+}
+.tableDataContainer{
+    width: 100%;
+    overflow: scroll;
+    /* background-color: rgb(14, 12, 12); */
+}
 
+.tab2Body{
+    /* height: 700px; */
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    justify-content:center;
+    background-color: rgb(14, 12, 12);
+    padding: 1%;
+}
 thead{
     border: 1px ridge rgb(127, 79, 238);
     border-radius: 20px;
 }
 thead>tr>th {
-    background-color: rgba(62, 231, 178, 0.959);
-    border: 2.5px solid  rgb(60, 49, 87);
-    color: rgb(30, 99, 177);
+    background-color: rgba(247, 63, 8, 0.712);
+    border: 2px ridge  rgb(60, 49, 87);
+    color: rgb(241, 243, 245);
+    width: 100px;
 }
 
+.fcIcon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+/* thead>tr>th:hover {
+    border: 2px solid  rgb(60, 49, 87);
+    color: rgb(10, 90, 182);
+} */
 tbody>tr>td {
     background-color: rgba(188, 250, 230, 0.959);
     border: 2px solid  rgb(60, 49, 87);
     color: rgb(30, 99, 177);
+}
+tbody>tr>td:hover {
+    background-color: rgb(10, 90, 182);
+    border: 2px solid  rgb(60, 49, 87);
+    color: rgb(210, 226, 245);
+    cursor: pointer;
+    
 }
