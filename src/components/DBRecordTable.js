@@ -15,7 +15,7 @@ export const DBRecordTable = () =>{
         <div className='tableDataContainer'>
         <form method="POST" >
             <table className="tableData">
-                <thead>
+                <thead className='dbThead'>
                     <tr>
                         <th scope="col">Work Order Number
                         </th>
@@ -38,7 +38,7 @@ export const DBRecordTable = () =>{
                         <th scope="col">WO Transformation Completion Date </th>
                     </tr>
                 </thead>
-                <tbody style={{fontSize:"15px"}} >
+                <tbody className='dbTbody' style={{fontSize:"15px"}} >
                   <tr>
                     <td>WO1789</td>
                     <td>COMPLETED</td>
@@ -64,7 +64,7 @@ export const DBRecordTable = () =>{
             </table>
             <br />
             <table >
-                <thead>
+                <thead className='dbThead'>
                     <tr>
                         <th scope="col">Component Type</th>
                         <th scope="col">Component Control Number</th>
@@ -79,7 +79,7 @@ export const DBRecordTable = () =>{
                         
                     </tr>
                 </thead>
-                <tbody style={{fontSize:"15px"}}>
+                <tbody className='dbTbody'style={{fontSize:"15px"}}>
                   <tr>
                     <td>Cable</td>
                     <td>CCN1010</td>
@@ -115,7 +115,7 @@ export const DBRecordTable = () =>{
              <h6 style={{textAlign:"left",color:"white"}}>PART 2  VERIFICATION : INSPECTION OPERATOR</h6>
         </div>
             <table>
-                <thead>
+                <thead className='dbThead'>
                     <tr>
                         <th scope="col">Product Inspection Results</th>
                         <th scope="col">Rejected Quanity</th>
@@ -127,7 +127,7 @@ export const DBRecordTable = () =>{
                         
                     </tr>
                 </thead>
-                <tbody>
+                <tbody className='dbTbody'>
                   <tr style={{fontSize:"15px"}}>
                     <td>ACCEPT</td>
                     <td>N/A</td>

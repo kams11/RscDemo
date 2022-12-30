@@ -12,9 +12,9 @@ const WorkOrderReports = () => {
 
   return (
     <>
-        
-        <div className="TObody" style={{display:"block",width:"100%"}}>
-        <form method="GET" >
+        <div className="worContainer">
+        <div className="TObody" >
+        <form method="GET" className="woForm">
             
                     <tr>
                         <th>Transformation Site</th>
@@ -65,7 +65,7 @@ const WorkOrderReports = () => {
         <div style={{display:"block",justifyContent:"center",paddingBottom:"20px",padding:"6px"}}>
         {toggleT2?<UserReportingTable2 />:null} 
         </div>
-        
+        </div> 
     </>
   )
 }

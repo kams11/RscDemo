@@ -4,20 +4,16 @@ import 'bootstrap/dist/css/bootstrap.css';
 //import UserReporting from './components/UserReporting';
 //import DBRecord from './components/DBRecord';
 //import WorkOrderReports from './components/WorkOrderReports';
-import UserReporting from './components/UserReporting';
 //import UserReporting from './components/UserReporting';
-//import ComponentMasterSystemMessage from './components/ComponentMasterSystemMessage';
-//import ContentFileMissing from './components/contentFileMissing';
-//import SelectPdf from './components/selectPdf';
-//import ComponentMasterTable from './components/ComponentMasterTable';
-//import RSCWorkflowInbox from './components/RSCWorkflowInbox';
- //import ComponentMaster from './components/ComponentMaster';
-//import Launchpad from './components/Launchpad';
+import CTorder from './components/CTO/CTorder';
+//import CtorderTable from './components/CTO/CTorderTable';
+//import UserReportingTable1 from './components/UserReportingTable1';
+
 
 function App() {
   return (
     <div className="App">
-      <UserReporting/>
+      <CTorder/>
     </div>
   );
 }

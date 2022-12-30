@@ -13,8 +13,8 @@ const TOReports = () => {
   return (
         <>
 
-        <div className="TObody" style={{display:"inline-flex"}}>
-        <form method="GET" >
+        <div className="torContainer" >
+        <form method="GET" className="torForm">
             
                     <tr>
                         <th>Transform Order Number</th>
@@ -63,7 +63,7 @@ const TOReports = () => {
                 <button className='searchbtn' onClick={toggleHandlerT1} ><IoMdSearch style={{marginBottom:"3px"}}/>SEARCH</button>
                 <button className='clearbtn'>CLEAR</button>
         </div>
-        <div style={{width:"100%",display:"flex",justifyContent:"center"}}>
+        <div style={{display:"block",justifyContent:"center",paddingBottom:"20px",padding:"6px"}}>
         {toggleT1?<UserReportingTable1 />:null}
         </div>
         </>

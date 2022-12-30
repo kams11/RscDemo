@@ -29,15 +29,25 @@ background-color: rgba(16, 89, 184, 0.712);
 cursor: pointer;
 }
 
-form{
-    margin-top: 30px;
+
+/* TOR & WOR css starts here */
+.torContainer{
     width: 100%;
+    height: fit-content;
+}
+.woForm{
+    display: block;
     justify-content: center;
-    /* padding-left: 40px; */
+    margin-top: 30px;
+    padding-left: 10px;
 }
-tr{
-    width: 700px;
+.torForm{
+    display: block;
+    justify-content: center;
+    margin-top: 30px;
+    padding-left: 10px;
 }
+
 th {
     font-family:sans-serif;
     font-size: small;
@@ -48,16 +58,15 @@ th {
 td {
     background-color: rgba(10, 32, 25, 0.096);
     color: yellow;
-    width: 40px;
     gap: 10px;
 }
 td>input{
-    width: 160px;
+    width: 140px;
     border-radius: 8px;
     margin-left: 4px;
 }
 td>input:hover{
-    width: 160px;
+    width: 140px;
     border-radius: 8px;
     margin-left: 4px;
     color: white;

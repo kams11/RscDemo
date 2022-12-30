@@ -12,7 +12,7 @@ export const UserReportingTable2 = () =>{
         <div className="TObody">
             <form >
                 <table >
-                <thead>
+                <thead className='urtThead'>
                     <tr>
                         <th>Product Number</th>
                         <th scope="col">Variety Code</th>
@@ -32,7 +32,7 @@ export const UserReportingTable2 = () =>{
                         <th scope="col">WO Execution Start Date And Time</th>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody className='urtTbody'>
                   <tr>
                     <td>demo</td>
                     <td>demo</td>

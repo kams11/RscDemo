@@ -7,26 +7,25 @@
 .userReports{
     width: 100%;
 }
-thead{
+
+/*  */
+.urtThead{
     border: 1px ridge rgb(127, 79, 238);
     border-radius: 20px;
 }
-thead>tr>th {
+.urtThead>tr>th {
     background-color: rgba(247, 63, 8, 0.712);
     border: 2px ridge  rgb(60, 49, 87);
     color: rgb(241, 243, 245);
     width: 100px;
 }
-/* thead>tr>th:hover {
-    border: 2px solid  rgb(60, 49, 87);
-    color: rgb(10, 90, 182);
-} */
-tbody>tr>td {
+
+.urtTbody>tr>td {
     background-color: rgba(188, 250, 230, 0.959);
     border: 2px solid  rgb(60, 49, 87);
     color: rgb(30, 99, 177);
 }
-tbody>tr>td:hover {
+.urtTbody>tr>td:hover {
     background-color: rgb(10, 90, 182);
     border: 2px solid  rgb(60, 49, 87);
     color: rgb(210, 226, 245);

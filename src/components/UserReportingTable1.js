@@ -5,10 +5,10 @@ export const UserReportingTable1 = () =>{
   return(
     
         <>
-        <div className="TOBody" style={{width:"100px",backgroundColor:"rgb(14, 12, 12)"}}>
+        <div className="TOBody" style={{width:"100%"}}>
         <form method="POST" >
             <table >
-                <thead>
+                <thead className='urtThead'>
                     <tr>
                         <th>Sales Order Number</th>
                         <th scope="col">HU Number</th>
@@ -25,7 +25,7 @@ export const UserReportingTable1 = () =>{
                         <th scope="col">Label Printer</th>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody className="urtTbody">
                   <tr>
                     <td>demo</td>
                     <td>demo</td>

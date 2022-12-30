@@ -25,7 +25,7 @@ const UserReporting = () => {
   }
 
   //DB-Reports
-  const [toggleK3,setToggleK3] = useState(true);
+  const [toggleK3,setToggleK3] = useState(false);
   const toggleHandlerK3 =(e)=>{
     e.preventDefault();
     setToggleK3(!toggleK3);
